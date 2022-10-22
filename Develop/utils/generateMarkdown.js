@@ -87,7 +87,7 @@ function generateMarkdown(data) {
   ## License
   ${licenseSectionString}
 
-  ##Questions
+  ## Questions
 
   For questions, please reach out to me at:
     - [Email] (${data.email})

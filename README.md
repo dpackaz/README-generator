@@ -33,7 +33,7 @@
   ## License
   This application is covered under the license: [MIT License](https://opensource.org/licenses/MIT)
 
-  ##Questions
+  ## Questions
 
   For questions, please reach out to me at:
     - [Email] (danielapacker@gmail.com)
