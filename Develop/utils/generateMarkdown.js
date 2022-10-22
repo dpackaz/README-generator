@@ -4,14 +4,15 @@ const licenses = require("./licenses.js")
 
 function renderLicenseBadge(license) {
   if (license === "None") {
-    }
-      else {
-        let licenseLink = renderLicenseLink(license);
-        let licenseImg = renderLicenseImg(license);
+    return "";
+  }
+    else {
+      let licenseLink = renderLicenseLink(license);
+      let licenseImg = renderLicenseImg(license);
         
-        let badge = `[![License](${licenseImg})](${licenseLink})`;
-        return badge;
-      }
+      let badge = `[![License](${licenseImg})](${licenseLink})`;
+      return badge;
+    }
 }
 
 // TODO: Create a function that returns the license link

@@ -38,18 +38,42 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('README.md', readmeContent, (err) =>
-    err ? console.log(err) : console.log('Successfully created REAME.md!')
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('Successfully created generated-README.md!')
     );
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then((answers) => {
+        let userInput = generate
+    })
+
+}
 
 // Function call to initialize app
 init();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
