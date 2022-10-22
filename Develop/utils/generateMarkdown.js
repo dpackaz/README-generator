@@ -1,6 +1,18 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+//Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+const licenses = require("./licenses.js")
+
+function renderLicenseBadge(license) {
+  if (license === "None") {
+    }
+      else {
+        let licenseLink = renderLicenseLink(license);
+        let licenseImg = renderLicenseImg(license);
+        
+        let badge = `[![License](${licenseImg})](${licenseLink})`;
+        return badge;
+      }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string

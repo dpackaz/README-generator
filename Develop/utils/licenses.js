@@ -55,4 +55,6 @@ const licenses = {
         licenseLink: "http://unlicense.org/",
         licenseImg: "https://img.shields.io/badge/license-Unlicense-blue.svg"
     },
-}
+};
+
+module.exports = licenses;
