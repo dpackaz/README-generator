@@ -34,7 +34,9 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Please choose a license for your project."
+        message: "Please choose a license for your project.",
+        choices: Object.keys(licenses),
+        loop: false
     },
     {
         name: "github",
