@@ -15,13 +15,30 @@ function renderLicenseBadge(license) {
     }
 }
 
-// TODO: Create a function that returns the license link
+//Function that returns link to license badge img
+function renderLicenseImg(license) {
+  let licenseImg = licenses[license].licenseImg
+  return licenseImg;
+}
+
+//Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let licenseLink = licenses[license].licenseLink;
+  if (license === "None") {
+    licenseLink = "";
+  }
+    else {
+      licenseLink = licenses[license].licenseLink;
+    }
+  return licenseLink;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
