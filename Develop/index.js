@@ -45,11 +45,12 @@ function writeToFile(fileName, data) {
     );
 }
 
-// TODO: Create a function to initialize app
+//Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        let userInput = generate
+        let userInput = generateMarkdown(answers);
+        writeToFile("generated-README.md", userInput);
     })
 
 }
