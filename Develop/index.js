@@ -8,33 +8,41 @@ const licenses = require("./utils/licenses.js");
 //Create an array of questions for user input
 const questions = [
     {
-        name: "Title",
+        name: "title",
         message: "What would you like to name your project?"
     },
     {
-        name: "Description",
+        name: "description",
         message: "Please describe your project. (Try to include at least 3-5 sentences)"
     },
     {
-        name: "Installation",
+        name: "installation",
         message: "What are the steps required to install your project?"
     },
     {
-        name: "Usage",
+        name: "usage",
         message: "Please provide instructions and examples for how to use your project. Screenshots and gifs should be added as needed after completion of this template."
     },
     {
-        name: "Credits",
+        name: "credits",
         message: "Please list any third-party assets that you used that require attribution and any tutorials that you may have followed."
     },
     {
-        name: "Contributing",
+        name: "contributing",
         message: "Please list any collaborators that worked on this project with you, along with links to their GitHub profiles."
     },
     {
         type: "list",
-        name: "License",
+        name: "license",
         message: "Please choose a license for your project."
+    },
+    {
+        name: "github",
+        message: "Please enter your GitHub username."
+    },
+    {
+        name: "email",
+        message: "Please enter your email address."
     },
 ];
 

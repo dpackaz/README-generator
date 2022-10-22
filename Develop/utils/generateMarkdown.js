@@ -34,22 +34,57 @@ function renderLicenseLink(license) {
   return licenseLink;
 }
 
-// TODO: Create a function that returns the license section of README
+//Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
+  let licenseSection;
+  if (license === "None") {
+    licenseSection = "";
+  }
+    else {
+      let licenseLink = renderLicenseLink(license);
+      licenseSection = `This application is covered under the license: [${license}](${licenseLink})`
+    }
+  return licenseSection;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  
+  let markdown = 
+  `# ${data.title}
 
-`;
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  - [Description] (#description)
+  - [Installation] (#installation)
+  - [Usage] (#usage)
+  - [Credits] (#credits)
+  - [Contributing] (#contributing)
+  - [License] (#license)
+  - [Questions] (#questions)
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ## Credits
+  ${data.credits}
+
+  ## Contributing
+  ${data.contributing}
+
+  ## License
+  ${data.}
+
+  `;
+
+  return markdown;
+
 }
 
 module.exports = generateMarkdown;
-
-
-fs.writeFile('index.html', htmlPageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!')
-    );
