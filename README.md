@@ -11,8 +11,6 @@ A good README is extremely important for developers to include with their projec
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [Contributing](#contributing)
 - [License](#license)
 - [Questions](#questions)
 
