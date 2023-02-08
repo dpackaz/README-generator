@@ -37,5 +37,5 @@ This application is covered under the license: [MIT License](https://opensource.
 
 For questions, please reach out to me at:
 
-- [Email](danielapacker@gmail.com)
+- danielapacker@gmail.com
 - [GitHub](https://github.com/dpackaz)
