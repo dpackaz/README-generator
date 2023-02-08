@@ -1,40 +1,41 @@
-# Professional README Generator
+# README Generator
 
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Description
-  A good README is extremely important for developers to include with their projects, but not many of us enjoy writing them. This application is designed to assist in the writing of professional READMEs through the help of prompts, integrated links, and licensing information.
+## Description
 
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Questions](#questions)
+A good README is extremely important for developers to include with their projects, but not many of us enjoy writing them. This application is designed to assist in the writing of professional READMEs through the help of prompts, integrated links, and licensing information.
 
-  ## Installation
-  A user must have node.js installed on their machine, and the must run the following commands in their terminal to prepare to run this application:
-  - npm init
-  - npm install inquirer@8.0.0
+## Table of Contents
 
-  ## Usage
-  https://drive.google.com/file/d/1eklK2oSBBDmF1HXz0JAAsFU52wl27fCw/view
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [License](#license)
+- [Questions](#questions)
 
-  The above video shows how to use the application in the terminal. Once the application is run with node.js, all the user needs to do is follow the prompts and a generated-README.md file will be created for them.
+## Installation
 
-  ## Credits
-  N/A
+A user must have node.js installed on their machine, and the must run the following commands in their terminal to prepare to run this application:
 
-  ## Contributing
-  N/A
+- npm init
+- npm install inquirer@8.0.0
 
-  ## License
-  This application is covered under the license: [MIT License](https://opensource.org/licenses/MIT)
+## Usage
 
-  ## Questions
+<img src="./Develop/README-generator-demo.gif">
 
-  For questions, please reach out to me at:
-    - [Email] (danielapacker@gmail.com)
-    - [GitHub] (https://github.com/dpackaz)
+The above GIF displays a demo of how to use the application in the terminal. Once the application is run with node.js, all the user needs to do is follow the prompts and a generated-README.md file will be created for them.
+
+## License
+
+This application is covered under the license: [MIT License](https://opensource.org/licenses/MIT)
+
+## Questions
+
+For questions, please reach out to me at:
+
+- [Email](danielapacker@gmail.com)
+- [GitHub](https://github.com/dpackaz)
