@@ -90,8 +90,8 @@ function generateMarkdown(data) {
   ## Questions
 
   For questions, please reach out to me at:
-    - [Email] (${data.email})
-    - [GitHub] (https://github.com/${data.github})
+  - [Email](${data.email})
+  - [GitHub](https://github.com/${data.github})
 
   `;
 
